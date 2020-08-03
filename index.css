@@ -1,0 +1,53 @@
+*{
+  font-family: Roboto;
+}
+.wrapper-section{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper-section .text{
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 20px;
+}
+.wrapper-section .text h1{
+  text-decoration: none;
+  font-weight: 700;
+}
+.wrapper-section .text h1 span{
+  color: #fd1015;
+  background: rgba(253,16,21,.1);
+  padding: 0 5px;
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+div.polaroid {
+  width: 25%;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+div.polaroid img{
+  border-radius: 20px;
+  height: 200px;
+  object-fit: cover;
+}
+
+div.container {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.container span{
+  color: black;
+  padding-left: 10px;
+  font-weight: 500;
+ 
+}
